@@ -7,8 +7,14 @@ const products = [
 ];
 const searcing = 'MacBook';
 const output = [];
+// for (const product of products) {
+//     if (product.toLocaleLowerCase().indexOf(searcing.toLocaleLowerCase()) != -1) {
+//         output.push(product);
+//     }
+// }
+
 for (const product of products) {
-    if (product.toLocaleLowerCase().indexOf(searcing.toLocaleLowerCase()) != -1) {
+    if (product.toLocaleLowerCase().includes(searcing.toLocaleLowerCase())) {
         output.push(product);
     }
 }
