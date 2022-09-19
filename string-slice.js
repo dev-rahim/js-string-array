@@ -8,3 +8,6 @@ console.log(first20Cherecters);
 // substr start with index number and end eith charecter numbers 
 const first20CherectersWithSubSrt = sentence.substr(0, 20);
 console.log(first20CherectersWithSubSrt);
+
+const words2 = words.join('=====');
+console.log(words2);
