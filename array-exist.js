@@ -15,3 +15,17 @@ const megaFriends = (friends) => {
 const friends = ['rahomot', 'lubana', 'kadira'];
 
 console.log(megaFriends(friends));
+
+if (friends.indexOf('lubana1') !== -1) {
+    console.log('exits');
+}
+else {
+    console.log('not exits');
+}
+
+if (friends.includes('lubana')) {
+    console.log('exits');
+}
+else {
+    console.log('not exits');
+}
