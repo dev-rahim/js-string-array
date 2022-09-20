@@ -7,3 +7,4 @@ const sortedNumbers2 = numbers2.sort((a, b) => a - b);
 console.log(sortedNumbers2);
 const sortedRavarse = numbers2.sort((a, b) => a - b).reverse();
 console.log(sortedRavarse);
+
