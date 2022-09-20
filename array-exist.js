@@ -29,3 +29,10 @@ if (friends.includes('lubana')) {
 else {
     console.log('not exits');
 }
+
+const first = [15, 58, 632, 52, 52]
+const second = [53, 586, 85, 96, 232]
+
+const combined = first.concat(second);
+console.log(combined);
+
